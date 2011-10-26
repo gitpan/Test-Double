@@ -3,12 +3,14 @@ abstract: 'Perl extension for Test Double.'
 author:
   - 'NAKAGAWA Masaki <masaki@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
+  Test::Memory::Cycle: 0
   Test::More: 0.96
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.04'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,7 +24,8 @@ no_index:
 requires:
   Class::Monadic: 0
   Exporter: 0
+  Scalar::Util: 1.14
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/masaki/Test-Double.git
-version: 0.01
+version: 0.02

@@ -1,4 +1,8 @@
 Revision history for Perl extension Test::Double
 
+0.02
+        - fixed memory leaks
+        - flatten outputs at subtest (Test::Flatten)
+
 0.01
         - original version
