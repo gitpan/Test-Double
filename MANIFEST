@@ -23,6 +23,7 @@ t/00_compile.t
 t/01_stub.t
 t/02_mock.t
 t/Utils.pm
+xt/memory.t
 xt/pod.t
 xt/pod_coverage.t
 xt/pod_spell.t
