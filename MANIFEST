@@ -22,6 +22,12 @@ README.pod
 t/00_compile.t
 t/01_stub.t
 t/02_mock.t
+t/03_with.t
+t/04_at_most.t
+t/05_times.t
+t/06_at_least.t
+t/07_verify_result.t
+t/08_verify_fail.t
 t/Utils.pm
 xt/memory.t
 xt/pod.t

@@ -5,6 +5,7 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.36
   Test::More: 0.96
+  Test::Tester: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
@@ -23,8 +24,11 @@ no_index:
 requires:
   Class::Monadic: 0
   Exporter: 0
+  List::MoreUtils: 0
   Scalar::Util: 1.14
+  Test::Deep: 0
+  Test::More: 0.96
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/masaki/Test-Double.git
-version: 0.04
+version: 0.05
